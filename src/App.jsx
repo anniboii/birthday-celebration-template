@@ -100,12 +100,12 @@ function App() {
               </>
             ) : (
               <>
-                Counting down to the<span className="highlight">NEW YEAR</span>{" "}
+                Counting down to the <span className="highlight">NEW YEAR</span>{" "}
                 
               </>
             )}
           </h1>
-          <p>kaisa hai mere bhaii 💗</p>
+          <p>kaisii ho merii jaanemann 💗</p>
         </section>
 
         <Countdown
