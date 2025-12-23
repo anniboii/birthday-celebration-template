@@ -13,19 +13,16 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `Darling Drishti,
 
-Your personalized birthday message goes here.
+2025 was truly special because of you..
+Every moment, every memory made it unforgettable..
+As we step into 2026, I’m excited for what lies ahead.
+More laughs, more growth, more us.
+Here’s to an even more beautiful year together!!
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
-
-Happy Birthday! 🎉
-
-— [Your Name]`;
+Lots of LOVE,
+- Ani`;
 
   // Handle page transitions
   useEffect(() => {

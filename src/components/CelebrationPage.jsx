@@ -30,7 +30,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
   const slides = [
     {
       icon: "✨",
-      text: "It's Your Special Day Yeyey!",
+      text: "It's the beginning of a new year Yayyyyayayyayyyyy!",
       type: "announcement",
     },
     {
@@ -334,7 +334,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
           <div className="celebration-buttons">
             <h2 className="celebration-title">Let's Celebrate! 🎉</h2>
             <p className="celebration-subtitle">
-              Click the buttons to decorate
+              Click the buttons for decoration
             </p>
 
             <div className="buttons-grid">
@@ -345,7 +345,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="lights"
                   onClick={() => handleButtonClick("lights")}
                 >
-                  💡 Turn On the Lights
+                  💡 Turn Off the Lights
                 </button>
               )}
 
@@ -389,7 +389,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="message"
                   onClick={() => handleButtonClick("message")}
                 >
-                  💌 Well, I Have a Message for You Madam Ji
+                  💌 Well, I Have a Message for You Madam Jii
                 </button>
               )}
             </div>
@@ -419,19 +419,19 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                 <div className="bunting-string">
                   {[
                     "H",
-                    "a",
-                    "p",
-                    "p",
-                    "y",
+                    "A",
+                    "P",
+                    "P",
+                    "Y",
                     " ",
-                    "B",
-                    "i",
-                    "r",
-                    "t",
-                    "h",
-                    "d",
-                    "a",
-                    "y",
+                    "N",
+                    "E",
+                    "W",
+                    " ",
+                    "Y",
+                    "E",
+                    "A",
+                    "R",
                   ].map((letter, i) => (
                     <div key={i} className={`bunting-flag flag-${i % 3}`}>
                       {letter}

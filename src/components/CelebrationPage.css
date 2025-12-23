@@ -8,7 +8,7 @@
   width: 100dvw;
   height: 100vh;
   height: 100dvh;
-  background: linear-gradient(135deg, #ffeef8 0%, #ffe5f3 50%, #ffd6ed 100%);
+  background: linear-gradient(135deg, #e282ba 0%, #ffe5f3 50%, #93185e 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -289,7 +289,7 @@
 }
 
 .decorate-button {
-  background: linear-gradient(135deg, #ff6b9d, #f06292);
+  background: linear-gradient(135deg, #208d3b, #f06292);
 }
 
 .balloons-button {
@@ -340,7 +340,7 @@
 }
 
 .light-1 {
-  background-color: #ffd700;
+  background-color: #d75002;
   color: #ffd700;
 }
 
@@ -423,16 +423,16 @@
 }
 
 .flag-0 {
-  border-top: 35px solid #00bcd4;
+  border-top: 35px solid #bcf5fc;
 }
 
 .flag-1 {
-  border-top: 35px solid #8bc34a;
+  border-top: 35px solid #cbefa2;
   animation-delay: 0.2s;
 }
 
 .flag-2 {
-  border-top: 35px solid #ffeb3b;
+  border-top: 35px solid #fbf5bd;
   animation-delay: 0.4s;
 }
 
